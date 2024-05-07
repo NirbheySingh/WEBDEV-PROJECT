@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 100%;
+    height: 109vh;
+    background-color: whitesmoke;
+}
+header img{
+    transform: translate(700px,10px);
+    background-color: #f5f5f5;
+}
+hr{
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.heading{
+    padding: 25px;
+    text-align: center;
+    transform: translateY(30px); 
+}
+.heading p{
+    margin-top: 25px;
+    width: 100%;
+    font-size: 20px;
+}
+.content{
+    border: 1px solid #ff7200;
+    border-radius: 10px;
+    transform: translateX(400px);
+    height: 100px;
+    width: 700px;
+    margin-top: 60px;
+    background: #fff;
+}
+.content h2{
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+}
+.content p{
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+button{
+    width: 200px;
+    background-color: #ff7200;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #fff;
+}
+.help{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translateY(-35px);
+}
+.help img{
+    transform: translate(10px,50px);
+}
+.help button{
+    transform: translate(520px,-50px);
+}
+.chat{
+    margin-top: 10px;
+    transform: translateY(-50px);
+}
+.chat img{
+    transform: translate(10px,65px);
+}
+.chat button{
+    transform: translate(520px,-55px);
+}
+.email{
+    margin-top: 10px;
+    transform: translateY(-50px);
+}
+.email img{
+    transform: translate(10px,65px);
+}
+.email button{
+    transform: translate(520px,-53px);
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: #fff;
+}
+.article{
+    height: 200px;
+    width: 100px;
+    color: #ff7200;
+    margin-left: 50px;
+    transform: translateY(40px);
+    font-size: large;
+}
+.article p{
+    width: 300px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.address{
+    height: 200px;
+    width: 300px;
+    transform: translate(300px,-150px);
+    margin-left: 150px;
+    font-size: x-large;
+}
+.address li{
+    margin-top: 20px;
+    font-size: large;
+    color: #f5f5f5f5;
+}
+.links{
+    height: 200px;
+    width: 300px;
+    transform: translate(600px,-350px);
+    margin-left: 150px;
+    font-size: x-large;
+}
+.links li{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.links li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+    font-size: medium;
+}
+.links li a:hover{
+    color: #ff7200;
+}
+.end{
+    height: 200px;
+    width: 300px;
+    transform: translate(900px,-550px);
+    margin-left: 150px;
+    font-size: x-large;
+}
+.end p{
+    margin-top: 20px;
+    font-size: large;
+    color: #f5f5f5f5
+}
+.end input{
+    height: 35px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.end button{
+    height: 25px;
+    width: 100px;
+    transform: translate(140px,-37px);
+}
+input::placeholder{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 20px;
+}

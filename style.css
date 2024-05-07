@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.main{
+    width: 100%;
+    background: url("diwali.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 67px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    float: right;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 10px;
+    color: #fff; 
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 13px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: #fff;
+    margin-top: 8%;
+    font-size: 25px;
+    display: flex;
+}
+.diwali{
+    color: #ff7200;
+    margin-left: 8px;
+}
+.countdown{
+    display: flex;
+    margin-top: 25px;
+    transform: translate(-590px,70px);
+}
+.countdown div{
+    display: block;
+    margin-left: 30px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    color: #ff7200;
+    min-width: 150px;
+    font-size: 18px;
+}
+.countdown div p{
+    font-size: 38px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 20px 0px 20px 0px;
+}
+.countdown div span{
+    color: #fff;
+    font-family: Arial;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.icon{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+.icon ion-icon{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+    color: #ff7200;
+}
+.notify{
+    background-color: #ff7200;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    margin-top: 30px; 
+    margin-left: 310px;
+    transform: translatey(100px);
+}
+.notify a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:black
+}
+.notify:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.details{
+    height: 470px;
+    width: 250px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    transform: translate(1070px,-250px);
+    border-radius: 20px;
+    padding: 20px;
+}
+.details h2{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #fff;
+    color: #ff7200;
+    font-family: Arial;
+    text-align: center;
+}
+.details input{
+    justify-content: center;
+    margin-top: 25px;
+}
+.text{
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    letter-spacing: 1px;
+    width: 100%;
+}
+::placeholder{
+    color: #fff;
+    font-size: bold;
+    text-align: left;
+    font-family: Arial;
+}
+.date{
+    width: 100%;
+    outline: none;
+    letter-spacing: 1px;
+}
+.details p{
+    color: #ff7200;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+.datalist{ 
+    width: 50%;
+}
+.datalist option{
+    width: 50px;
+}
+.datalist::placeholder{
+    color: black;
+}
+.images{
+    width: 50%;
+}
+.submit{
+    width: 100%;
+}

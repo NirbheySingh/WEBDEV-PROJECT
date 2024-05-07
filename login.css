@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{ 
+    width: 100%;
+    background: url("event.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 108vh;
+ } 
+ form{
+    width: 250px;
+    height: 360px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    transform: translate(600px,220px);
+    border-radius: 10px;
+    padding: 25px;
+ }
+ form h2{
+    text-align: center;
+    border: 1px solid violet;
+    border-radius: 10px;
+    background-color: violet;
+    color: #fff;
+ }
+ form input{
+    text-align: left;
+    border-bottom: 1px solid violet;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: #fff;
+    margin-top: 30px;
+    width: 240px;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    float: left;
+    outline: none;
+ }
+ ::placeholder{
+    color: #fff;
+    font-family: Arial;
+    text-align: left;
+ }
+ form button{
+    width: 240px;
+    height: 4cqh;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 30px;
+    transition: 0.4e-ease;
+ }
+ form button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: violet;
+ }
+ form p{
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Arial;
+    margin-top: 30px;
+ }
+ form p a{
+    text-decoration: none;
+    color: violet;
+ }
+ .icon{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 5px;
+ }
+ .icon a{
+    color:#fff;
+    margin-right: 20px;
+    font-size: 30px;
+ }
+ form button:hover{
+   background-color: black;
+ }
+  .icon a:hover{
+   color:violet;
+ }
