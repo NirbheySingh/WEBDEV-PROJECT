@@ -70,7 +70,17 @@ ul li a:hover{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
-
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 13px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 .btn:focus{
     outline: none;
 }

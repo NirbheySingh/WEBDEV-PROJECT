@@ -137,16 +137,7 @@ header ul li a:hover{
 .lower p{  
     font-size: 26px;
 }
-footer{  
-    width: 99%;  
-    height: 110px; 
-    border: 1px solid black;  
-    transform: translateY(350px); 
-    background: #ff7200;
-    color: black;
-    border-radius: 20px;
-    margin-left: 5px;
-}
+
 footer h2{ 
     margin-left: 180px;
     margin-top: 20px;
