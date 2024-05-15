@@ -10,7 +10,12 @@
 .top1{
     display: flex;
 }
-
+.top1 h1{
+    color: #ff7200;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+}
 .form{
     margin-left: 800px;
     margin-top: 20px;
