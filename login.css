@@ -10,7 +10,7 @@
     height: 108vh;
  } 
  form{
-    width: 250px;
+    width: 255px;
     height: 365px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
     transform: translate(600px,220px);
